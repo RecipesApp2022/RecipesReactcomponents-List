@@ -20,7 +20,8 @@ This list contains all the components created during the development of the Reci
 * [Contenido 13](#item13)
 * [Contenido 14](#item14)
  
-Lorem ipsum dolor
+
+
  
 <a name="item1"></a>
 ### AppLayout
