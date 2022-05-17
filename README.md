@@ -17,9 +17,9 @@ This list contains all the components created during the development of the Reci
 * [PopularSearch](#item10)
 * [WeightPlan](#item11)
 * [CategoriesVideo](#item12)
-* [SesionCategory](#item13)
-* [VideoCategory](#item14)
-* [Video](#item15)
+	* [SesionCategory](#item13)
+	* [VideoCategory](#item14)
+	* [Video](#item15)
 * [Recipes](#item16)
 * [ChefsCountries](#item17)
 
@@ -38,7 +38,7 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
  
 <a name="item2"></a>
-### NavBar
+* ### NavBar
  
 Contiene la parte superior del header donde se ubican los items que direccionan la navegación del usuario hacia categorías, vendedores e inicio de sesión.  
 
@@ -49,7 +49,7 @@ Contiene la parte superior del header donde se ubican los items que direccionan 
 
  
 <a name="item3"></a>
-### NavInfo
+* ### NavInfo
  
 Contiene la barra inferior del header, está compuesto por la localización, direccionamientos hacia recetas, planes y combos. 
 
@@ -61,7 +61,7 @@ Contiene la barra inferior del header, está compuesto por la localización, dir
 
  
 <a name="item4"></a>
-### Footer
+* ### Footer
  
 Almacena toda la información del pié de página.
  
@@ -148,7 +148,7 @@ Toda la sección de categorías con videos.
 
 
 <a name="item13"></a>
-### SesionCategory
+* ### SesionCategory
  
 Select de las categorías.
 
@@ -156,7 +156,7 @@ Select de las categorías.
 
 
 <a name="item14"></a>
-### VideoCategory
+* ### VideoCategory
  
 Descripción del video, contiene imagen y nombre del vendedor, nombre de la receta. 
  
@@ -166,7 +166,7 @@ Descripción del video, contiene imagen y nombre del vendedor, nombre de la rece
 
 
 <a name="item15"></a>
-### Video
+* ### Video
  
 Modelo de la estructura de la card donde se muestra el video.
  
