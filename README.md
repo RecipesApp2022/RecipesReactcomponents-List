@@ -4,12 +4,14 @@ This list contains all the components created during the development of the Reci
 
 ## Table of Contents 
 - UI Components
-	- **NavBar:** Header barra superior.
-	- **NavInfo:** Header, Barra Inferior.
-	- **Footer:** Pie de página.
-	- **AuthModal:** Validación de inicio y registro de sesión.
-		- **LoginForm:** Componente para el inicio de sesión.
-		- **RegisterForm:** Componente para el registro.
+	- **AppLayout:** 
+		- **NavBar:** Header barra superior.
+		- **NavInfo:** Header, Barra Inferior.
+		- **Footer:** Pie de página.
+
+
+	- **LoginForm:** Componente para el inicio de sesión.
+	- **RegisterForm:** Componente para el registro.
 	- **SwiperHome:** Imagenes del Carrosuel.
 	- **Card:** La franja verde con el prosp modificable.
 	- **SwiperCategoryCard:** (CategorySectionCard: components que del cuadro de categoria)
