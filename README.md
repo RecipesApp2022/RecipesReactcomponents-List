@@ -22,7 +22,7 @@ This list contains all the components created during the development of the Reci
 * [Video](#item15)
 * [Recipes](#item16)
 * [ChefsCountries](#item17)
-* [Contenido 18](#item18)
+
  
 
 
@@ -30,83 +30,76 @@ This list contains all the components created during the development of the Reci
 <a name="item1"></a>
 ### AppLayout
  
-El Componente AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
 
  
 [Subir](#top)
+
+
  
 <a name="item2"></a>
-### Contenido 2
+### NavBar
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
- 
-[Subir](#top)
- 
-<a name="item3"></a>
-### Contenido 3
- 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-[Subir](#top)
- 
-<a name="item4"></a>
-### Contenido 4
- 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- 
+Contiene la parte superior del header donde se ubican los items que direccionan la navegación del usuario hacia categorías, vendedores e inicio de sesión.  
+
  
 [Subir](#top)
 
+
+
+ 
+<a name="item3"></a>
+### NavInfo
+ 
+Contiene la barra inferior del header, está compuesto por la localización, direccionamientos hacia recetas, planes y combos. 
+
+ 
+[Subir](#top)
+
+
+
+
+ 
+<a name="item4"></a>
+### Footer
+ 
+Almacena toda la información del pié de página.
+ 
+[Subir](#top)
+
+
+
+
 <a name="item5"></a>
-### Contenido 5
+### LoginForm
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Vista del login donde el usuario agrega datos para validar su acceso a la plataforma.
+
  
 [Subir](#top)
 
 
 <a name="item6"></a>
-### Contenido 6
+### RegisterForm
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Página en la cual el usuario puede rellenar los campos requeridos para el registro en la aplicación. 
  
 [Subir](#top)
+
 
 
 
 <a name="item7"></a>
-### Contenido 7
+### SwiperHome
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Contiene las imágenes de portada modo slider. 
  
 [Subir](#top)
 
 
 
-
-
 <a name="item8"></a>
-### Contenido 8
+### Card
  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  
@@ -119,76 +112,53 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 
 <a name="item9"></a>
-### Contenido 9
+### CategorySectionCard
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- 
+Componente utilizado para las imágenes de las categorías.
+
 [Subir](#top)
 
 
 
+
 <a name="item10"></a>
-### Contenido 10
+### PopularSearch
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Rectángulo con estilos específicos donde se agrega la información, imagen y texto de una sección publicitaria. 
  
 [Subir](#top)
 
 
 
 <a name="item11"></a>
-### Contenido 11
+### WeightPlan
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sección de los planes, donde se trae información de los planes como imagen, título y descripción breve. 
  
 [Subir](#top)
 
 
 <a name="item12"></a>
-### Contenido 12
+### CategoriesVideo
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Toda la sección de categorías con videos. 
  
 [Subir](#top)
 
 
 
 <a name="item13"></a>
-### Contenido 13
+### SesionCategory
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- 
+Select de las categorías.
+
 [Subir](#top)
 
 
 <a name="item14"></a>
-### Contenido 14
+### VideoCategory
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Descripción del video, contiene imagen y nombre del vendedor, nombre de la receta. 
  
 [Subir](#top)
 
@@ -196,51 +166,27 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 
 <a name="item15"></a>
-### Contenido 15
+### Video
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Modelo de la estructura de la card donde se muestra el video.
  
 [Subir](#top)
 
 
 
 <a name="item16"></a>
-### Contenido 16
+### Recipes
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Componente que contiene la estructura de la plantilla de como se muestra la receta en el home. 
  
 [Subir](#top)
 
 
 
 <a name="item17"></a>
-### Contenido 17
+### ChefsCountries
  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Contiene sección de chefs populares por países. 
  
 [Subir](#top)
 
-
-
-<a name="item18"></a>
-### Contenido 18
- 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
- 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
- 
-[Subir](#top)
