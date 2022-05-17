@@ -6,19 +6,23 @@ This list contains all the components created during the development of the Reci
  
 ## Índice de contenidos
 * [AppLayout](#item1)
-	 * [Contenido 2](#item2)
-	 * [Contenido 3](#item3)
-	 * [Contenido 4](#item4)
-* [Contenido 5](#item5)
-* [Contenido 6](#item7)
-* [Contenido 7](#item7)
-* [Contenido 8](#item8)
-* [Contenido 9](#item9)
-* [Contenido 10](#item10)
-* [Contenido 11](#item11)
-* [Contenido 12](#item12)
-* [Contenido 13](#item13)
-* [Contenido 14](#item14)
+	 * [NavBar](#item2)
+	 * [NavInfo](#item3)
+	 * [Footer](#item4)
+* [LoginForm](#item5)
+* [RegisterForm](#item6)
+* [SwiperHome](#item7)
+* [Card](#item8)
+* [CategorySectionCard](#item9)
+* [PopularSearch](#item10)
+* [WeightPlan](#item11)
+* [CategoriesVideo](#item12)
+* [SesionCategory](#item13)
+* [VideoCategory](#item14)
+* [Video](#item15)
+* [Recipes](#item16)
+* [ChefsCountries](#item17)
+* [Contenido 18](#item18)
  
 
 
@@ -179,6 +183,59 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 <a name="item14"></a>
 ### Contenido 14
+ 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item15"></a>
+### Contenido 15
+ 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 
+[Subir](#top)
+
+
+
+<a name="item16"></a>
+### Contenido 16
+ 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 
+[Subir](#top)
+
+
+
+<a name="item17"></a>
+### Contenido 17
+ 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+ 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 
+[Subir](#top)
+
+
+
+<a name="item18"></a>
+### Contenido 18
  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  
