@@ -6,6 +6,7 @@ This list contains all the components created during the development of the Reci
 ![]()
  
 ## Índice de contenidos
+[Frontend](#item0)
 * [AppLayout](#item1)
 	 * [NavBar](#item2)
 	 * [NavInfo](#item3)
@@ -46,6 +47,9 @@ This list contains all the components created during the development of the Reci
 * [AppLayout](#item36)
 * [AppLayout](#item37)
 
+ 
+<a name="item0"></a>
+## Frontend
  
 
 
