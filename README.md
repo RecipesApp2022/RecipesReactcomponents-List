@@ -3,6 +3,7 @@
 
 This list contains all the components created during the development of the Recipes application, which has web and mobile versions. These components were structured to facilitate their re-implementation as the marketplace progresses.
 
+![]()
  
 ## Índice de contenidos
 * [AppLayout](#item1)
