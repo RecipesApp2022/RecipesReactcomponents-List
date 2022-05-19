@@ -24,15 +24,15 @@ This list contains all the components created during the development of the Reci
 	* [Video](#item15)
 * [Recipes](#item16)
 * [ChefsCountries](#item17)
-* [AppLayout](#item18)
-* [AppLayout](#item19)
-* [AppLayout](#item20)
-* [AppLayout](#item21)
-* [AppLayout](#item22)
-* [AppLayout](#item23)
-* [AppLayout](#item23)
-* [AppLayout](#item24)
-* [AppLayout](#item24)
+* [AuthModal](#item18)
+* [ButtonSupr](#item19)
+* [MenuLeft](#item20)
+* [CategoriesRecipes](#item21)
+* [SelectCategory](#item22)
+* [SelectRank](#item23)
+* [ButtonRank](#item23)
+* [BannerChef](#item24)
+* [ButtomButton](#item24)
 * [AppLayout](#item25)
 * [AppLayout](#item26)
 * [AppLayout](#item27)
@@ -219,9 +219,9 @@ Contiene sección de chefs populares por países.
 ------------
 
 <a name="item18"></a>
-### AppLayout
+### AuthModal
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Este componente es el encargado de la validación de escuchar el clic al seleccionar el Button de inicio de sesión donde nos permite iniciar en la vista del login o en la vista del registro.
 
  
 [Subir](#top)
@@ -229,9 +229,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item19"></a>
-### AppLayout
+### ButtonSupr
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente con las tres opciones de vista (Grid View, ListView). en las pantallas de resultados de busqueda.
 
  
 [Subir](#top)
@@ -239,9 +239,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item20"></a>
-### AppLayout
- 
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+### MenuLeft
+
+Este componente es el encargado de la estructura del sistema de filtrado que aparece en el lateral izquierdo en las pantallas de resultados de búsqueda.  A su vez contiene 6 componentes.   
 
  
 [Subir](#top)
@@ -249,9 +249,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item21"></a>
-### AppLayout
+### CategoriesRecipes
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado del filtrado por categorías.
 
  
 [Subir](#top)
@@ -259,9 +259,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item22"></a>
-### AppLayout
+### SelectCategory
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado del filtrado por Types.
 
  
 [Subir](#top)
@@ -269,9 +269,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item23"></a>
-### AppLayout
+### SelectRank
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado del filtrado por Ranking. 
 
  
 [Subir](#top)
@@ -279,7 +279,7 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item24"></a>
-### AppLayout
+### ButtonRank 
  
 AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
 
@@ -289,9 +289,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item25"></a>
-### AppLayout
+### ButtonRank 
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente con botones para aplicar o resetear los filtros.
 
  
 [Subir](#top)
@@ -299,9 +299,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item26"></a>
-### AppLayout
+### BannerChef
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Este componente contiene la estructura de las cards con la información mostrada de cada vendedor desde la vitrina de vendedores y el home.
 
  
 [Subir](#top)
@@ -309,7 +309,7 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item27"></a>
-### AppLayout
+### ButtomButton
  
 AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
 
@@ -319,12 +319,18 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item28"></a>
-### AppLayout
+### ButtomButton
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente con botones de paginación que se repite en varias secciones.
 
  
 [Subir](#top)
+
+
+
+
+
+
 
 
 
