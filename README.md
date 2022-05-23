@@ -55,8 +55,6 @@ This list contains all the components created during the development of the Reci
 * [DescriptionPost](#item46)
 * [CalendarDay](#item47)
 * [calendar](#item48)
-
-
 * [AppLayout](#item49)
 * [AppLayout](#item50)
 * [AppLayout](#item51)
