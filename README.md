@@ -241,9 +241,6 @@ Contiene sección de chefs populares por países.
 [Subir](#top)
 
 
-
-------------
-
 <a name="item18"></a>
 ### AuthModal
  
@@ -611,9 +608,9 @@ Componente encargado del diseño del calendario
 
 
 <a name="item49"></a>
-### AppLayout
+### RequireAuth
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente de autenticacion del login de usuario. Envuelve MyAccountLayout.
 
  
 [Subir](#top)
@@ -626,9 +623,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item50"></a>
-### AppLayout
+### ScrollNavegacion
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado de contener el diseño circular. componente principal ButtonButton(ScrollNavegacion)
 
  
 [Subir](#top)
@@ -638,24 +635,19 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item51"></a>
-### AppLayout
+### SearchHome
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado de motor de Busqueda en el home contiene el componente ButtonSearch
 
  
 [Subir](#top)
 
 
 
-
-
-
-
-
 <a name="item52"></a>
-### AppLayout
+* ### ButtonSearch
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado del selector de busqueda por sus categorias.
 
  
 [Subir](#top)
@@ -665,10 +657,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item53"></a>
-### AppLayout
+### WeightPlan
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
-
+Componente de la vista de cuadro de planes. 
  
 [Subir](#top)
 
@@ -679,9 +670,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item54"></a>
-### AppLayout
+### Swiper
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+CategoryCard, Combos, Home, Overview, Popular, Recipes, WeightPlan
 
  
 [Subir](#top)
@@ -691,9 +682,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item55"></a>
-### AppLayout
+### config
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente de la parte del usuario en la vista de configuracion 
 
  
 [Subir](#top)
@@ -702,14 +693,10 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 
-
-
-
-
 <a name="item56"></a>
-### AppLayout
+### DescriptionChef
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado del chef de la description del menu lateral
 
  
 [Subir](#top)
@@ -719,10 +706,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item57"></a>
-### AppLayout
+### DescriptionPost
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
-
+Componente encargado de mostrar la informacion de post de Anya del menu lateral
  
 [Subir](#top)
 
@@ -734,9 +720,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item58"></a>
-### AppLayout
+### FormAccount
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente de la iformacion personal de user en la vista de usuario (my personal informayion)
 
  
 [Subir](#top)
@@ -746,9 +732,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item59"></a>
-### AppLayout
+### InformacionChef
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Datos de la redes sociales del cheft que aparece en el menu lateral
 
  
 [Subir](#top)
@@ -760,9 +746,9 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item50"></a>
-### AppLayout
+### ingredientRow
  
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+Componente encargado del diseño del cuadro de la lista de ingredientes.
 
  
 [Subir](#top)
@@ -772,12 +758,285 @@ AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo
 
 
 <a name="item51"></a>
-### AppLayout
- 
-AppLayout es un componente padre de enrutamiento entre los hijos NavBar, NavInfo y Footer. Este contiene una variable que permite agregar el contenido correspondiente a cada página de la aplicación. 
+### ingredientRowDetails
+
+Componente encargado del detalle que lleva cada vista de la lista de ingrediente
 
  
 [Subir](#top)
 
+
+
+
+<a name="item52"></a>
+### LyOverview
+
+Componente encargado del siseño de las letras de la vista overview
+ 
+[Subir](#top)
+
+
+
+
+<a name="item53"></a>
+### MealDetailOverview
+
+componente del scroll de la vista por dia.
+
+ 
+[Subir](#top)
+
+
+
+
+<a name="item54"></a>
+### MealDetailOverviewImages
+
+Componete encargado de mostrar la imagenes al seleccionar un cuadro de la vista de overview.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item55"></a>
+### PasswordUser
+
+Componente donde permite al usuario agregar contraseña en la vista paypal user
+
+ 
+[Subir](#top)
+
+
+
+
+<a name="item56"></a>
+### PaypalLogin
+
+Componente  creado para la vista de login de paypal (no se usara) 
+ 
+[Subir](#top)
+
+
+
+
+<a name="item57"></a>
+### PaypalUser
+
+Componente donde se encarga de colocar la informacion de my paypal en la vista de user.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item58"></a>
+### ProductInfo
+
+Componente que se encarga mnostar todo el contenido de la vista de detalle del producto.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item59"></a>
+### BannerPage
+
+componente del banner de las diferente vista (revision).
+ 
+[Subir](#top)
+
+
+
+
+<a name="item60"></a>
+### BoxCalendar
+
+Componente encargado del diseño del cuadro del calendario de la vista del usuario
+ 
+[Subir](#top)
+
+
+
+
+<a name="item61"></a>
+### BoxName
+
+componente que recibe el texto del diade la semana (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday).
+ 
+[Subir](#top)
+
+
+
+
+<a name="item62"></a>
+### ButtonCart
+
+Componente del boton de carrito
+ 
+[Subir](#top)
+
+
+
+
+<a name="item63"></a>
+### ButtonChange
+
+Componente del boton de change
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### ingredientRowDetails
+
+Componente encargado del detalle que lleva cada vista de la lista de ingrediente
+
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### ButtonItems
+
+Componente que se encarga del siseño del boton de seleccion de (recipes, plans y combos?
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### SelectOrder
+
+Componente del diseño de lista de ordenar por del vendedor.	
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardChef
+
+Componente del vendedor. Vista sellers.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardGym
+
+Componente repetido mejorar.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardOrder
+
+Componente donde aparece foto de nombre del vendedor, order, sellers.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardPaypal
+
+Componente que se encuentra en la vista de la forma de pago de paypal (logo y modificar).
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardProduct
+
+Componente que contiene imagen y tirulo del producto en al vista de paypal.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardRecipes
+
+Componente de las recetas. 
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardResum
+
+Componente de orden de resum en paypal.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CardWithTitle
+
+Componente que fue realizado para la parte de configuraciones de My servings en la vista de usuario.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### ingredientRowDetails
+
+Componente encargado del detalle que lleva cada vista de la lista de ingrediente
+
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### Checkbox
+
+Componente del checkbok cuadrado.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### CheckboxConfig
+
+Componente del checkbok circular.
+ 
+[Subir](#top)
+
+
+
+
+<a name="item51"></a>
+### WaPay
+
+Componente encargado de mostrar la informacion de la lista de comparador de precio
+ 
+[Subir](#top)
 
 
