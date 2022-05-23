@@ -742,7 +742,7 @@ Datos de la redes sociales del cheft que aparece en el menu lateral
 
 
 
-<a name="item50"></a>
+<a name="item60"></a>
 ### ingredientRow
  
 Componente encargado del diseño del cuadro de la lista de ingredientes.
@@ -754,7 +754,7 @@ Componente encargado del diseño del cuadro de la lista de ingredientes.
 
 
 
-<a name="item51"></a>
+<a name="item61"></a>
 ### ingredientRowDetails
 
 Componente encargado del detalle que lleva cada vista de la lista de ingrediente
@@ -765,7 +765,7 @@ Componente encargado del detalle que lleva cada vista de la lista de ingrediente
 
 
 
-<a name="item52"></a>
+<a name="item62"></a>
 ### LyOverview
 
 Componente encargado del siseño de las letras de la vista overview
@@ -775,7 +775,7 @@ Componente encargado del siseño de las letras de la vista overview
 
 
 
-<a name="item53"></a>
+<a name="item63"></a>
 ### MealDetailOverview
 
 componente del scroll de la vista por dia.
@@ -786,7 +786,7 @@ componente del scroll de la vista por dia.
 
 
 
-<a name="item54"></a>
+<a name="item64"></a>
 ### MealDetailOverviewImages
 
 Componete encargado de mostrar la imagenes al seleccionar un cuadro de la vista de overview.
@@ -796,7 +796,7 @@ Componete encargado de mostrar la imagenes al seleccionar un cuadro de la vista 
 
 
 
-<a name="item55"></a>
+<a name="item65"></a>
 ### PasswordUser
 
 Componente donde permite al usuario agregar contraseña en la vista paypal user
@@ -807,7 +807,7 @@ Componente donde permite al usuario agregar contraseña en la vista paypal user
 
 
 
-<a name="item56"></a>
+<a name="item66"></a>
 ### PaypalLogin
 
 Componente  creado para la vista de login de paypal (no se usara) 
@@ -817,7 +817,7 @@ Componente  creado para la vista de login de paypal (no se usara)
 
 
 
-<a name="item57"></a>
+<a name="item67"></a>
 ### PaypalUser
 
 Componente donde se encarga de colocar la informacion de my paypal en la vista de user.
@@ -827,7 +827,7 @@ Componente donde se encarga de colocar la informacion de my paypal en la vista d
 
 
 
-<a name="item58"></a>
+<a name="item68"></a>
 ### ProductInfo
 
 Componente que se encarga mnostar todo el contenido de la vista de detalle del producto.
@@ -837,7 +837,7 @@ Componente que se encarga mnostar todo el contenido de la vista de detalle del p
 
 
 
-<a name="item59"></a>
+<a name="item69"></a>
 ### BannerPage
 
 componente del banner de las diferente vista (revision).
@@ -847,7 +847,7 @@ componente del banner de las diferente vista (revision).
 
 
 
-<a name="item60"></a>
+<a name="item70"></a>
 ### BoxCalendar
 
 Componente encargado del diseño del cuadro del calendario de la vista del usuario
@@ -857,7 +857,7 @@ Componente encargado del diseño del cuadro del calendario de la vista del usuar
 
 
 
-<a name="item61"></a>
+<a name="item71"></a>
 ### BoxName
 
 componente que recibe el texto del diade la semana (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday).
@@ -867,7 +867,7 @@ componente que recibe el texto del diade la semana (Sunday, Monday, Tuesday, Wed
 
 
 
-<a name="item62"></a>
+<a name="item72"></a>
 ### ButtonCart
 
 Componente del boton de carrito
@@ -877,7 +877,7 @@ Componente del boton de carrito
 
 
 
-<a name="item63"></a>
+<a name="item73"></a>
 ### ButtonChange
 
 Componente del boton de change
@@ -887,7 +887,7 @@ Componente del boton de change
 
 
 
-<a name="item51"></a>
+<a name="item74"></a>
 ### ButtonItems
 
 Componente que se encarga del siseño del boton de seleccion de (recipes, plans y combos?
@@ -897,7 +897,7 @@ Componente que se encarga del siseño del boton de seleccion de (recipes, plans 
 
 
 
-<a name="item51"></a>
+<a name="item75"></a>
 ### SelectOrder
 
 Componente del diseño de lista de ordenar por del vendedor.	
@@ -907,7 +907,7 @@ Componente del diseño de lista de ordenar por del vendedor.
 
 
 
-<a name="item51"></a>
+<a name="item76"></a>
 ### CardChef
 
 Componente del vendedor. Vista sellers.
@@ -917,7 +917,7 @@ Componente del vendedor. Vista sellers.
 
 
 
-<a name="item51"></a>
+<a name="item77"></a>
 ### CardGym
 
 Componente repetido mejorar.
@@ -927,7 +927,7 @@ Componente repetido mejorar.
 
 
 
-<a name="item51"></a>
+<a name="item78"></a>
 ### CardOrder
 
 Componente donde aparece foto de nombre del vendedor, order, sellers.
@@ -937,7 +937,7 @@ Componente donde aparece foto de nombre del vendedor, order, sellers.
 
 
 
-<a name="item51"></a>
+<a name="item79"></a>
 ### CardPaypal
 
 Componente que se encuentra en la vista de la forma de pago de paypal (logo y modificar).
@@ -947,7 +947,7 @@ Componente que se encuentra en la vista de la forma de pago de paypal (logo y mo
 
 
 
-<a name="item51"></a>
+<a name="item80"></a>
 ### CardProduct
 
 Componente que contiene imagen y tirulo del producto en al vista de paypal.
@@ -957,7 +957,7 @@ Componente que contiene imagen y tirulo del producto en al vista de paypal.
 
 
 
-<a name="item51"></a>
+<a name="item81"></a>
 ### CardRecipes
 
 Componente de las recetas. 
@@ -967,7 +967,7 @@ Componente de las recetas.
 
 
 
-<a name="item51"></a>
+<a name="item82"></a>
 ### CardResum
 
 Componente de orden de resum en paypal.
@@ -977,7 +977,7 @@ Componente de orden de resum en paypal.
 
 
 
-<a name="item51"></a>
+<a name="item83"></a>
 ### CardWithTitle
 
 Componente que fue realizado para la parte de configuraciones de My servings en la vista de usuario.
@@ -989,7 +989,7 @@ Componente que fue realizado para la parte de configuraciones de My servings en 
 
 
 
-<a name="item51"></a>
+<a name="item84"></a>
 ### Checkbox
 
 Componente del checkbok cuadrado.
@@ -999,7 +999,7 @@ Componente del checkbok cuadrado.
 
 
 
-<a name="item51"></a>
+<a name="item85"></a>
 ### CheckboxConfig
 
 Componente del checkbok circular.
@@ -1009,7 +1009,7 @@ Componente del checkbok circular.
 
 
 
-<a name="item51"></a>
+<a name="item86"></a>
 ### WaPay
 
 Componente encargado de mostrar la informacion de la lista de comparador de precio
