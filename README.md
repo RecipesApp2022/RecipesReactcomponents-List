@@ -606,7 +606,6 @@ Componente encargado del diseño del calendario
 
 
 
-
 <a name="item49"></a>
 ### RequireAuth
  
@@ -614,8 +613,6 @@ Componente de autenticacion del login de usuario. Envuelve MyAccountLayout.
 
  
 [Subir](#top)
-
-
 
 
 
@@ -891,17 +888,6 @@ Componente del boton de change
 
 
 <a name="item51"></a>
-### ingredientRowDetails
-
-Componente encargado del detalle que lleva cada vista de la lista de ingrediente
-
- 
-[Subir](#top)
-
-
-
-
-<a name="item51"></a>
 ### ButtonItems
 
 Componente que se encarga del siseño del boton de seleccion de (recipes, plans y combos?
@@ -999,15 +985,6 @@ Componente que fue realizado para la parte de configuraciones de My servings en 
 [Subir](#top)
 
 
-
-
-<a name="item51"></a>
-### ingredientRowDetails
-
-Componente encargado del detalle que lleva cada vista de la lista de ingrediente
-
- 
-[Subir](#top)
 
 
 
